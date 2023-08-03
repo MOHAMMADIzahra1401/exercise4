@@ -12,7 +12,7 @@ elif scor2<0 or scor2>20:
 elif scor3<0 or scor3>20:
     print("pleas enter a number in range 0 ta 20:") 
 else:
-    Average= (scor2+scor2+scor3)/3
+    Average= (scor1+scor2+scor3)/3
     print(Average)
     if Average>=17 :
         print("Average" ,name,lastname," is  Greate")
